@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script src="js/echarts.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.min.js?time=2018020601"></script>
+    <title>AML Transaction Map</title>
+
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #container,
+        #main{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="main"></div>
+    </div>
+    <script>
+        var imgPath = "image://images/";
+
+        var mergeFlowData = function(a, b) {
+            var arr = [];
+            if (a instanceof Array)
+                arr.push(...a)
+            else
+                arr.push(a)
+            if (b instanceof Array) {
+                arr.push(...b)
+            } else
+                arr.push(b);
+            return arr;
+        };
+    </script>
+
+</body>
+
+</html>

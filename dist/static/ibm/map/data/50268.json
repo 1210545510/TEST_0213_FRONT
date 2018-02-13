@@ -1,0 +1,53 @@
+[{
+    "amount": "$24,324",
+    "type": 1,
+    "from": {
+        "name": "Ada Star Real Estate Corporate",
+        "type": "company",
+        "coord": [-109.04798, 40.998429]
+    },
+    "to": {
+        "name": "Albania Bank Card",
+        "type": "card",
+        "coord": [20.311132812500006, 39.979443359375]
+    }
+}, {
+    "amount": "$24,324",
+    "type": 2,
+    "from": {
+        "name": "Albania Bank Card",
+        "type": "card",
+        "coord": [20.311132812500006, 39.979443359375]
+    },
+    "to": {
+        "name": "Reserve Bank of Zimbabwe",
+        "type": "bank",
+        "coord": [29.4873046875, -15.69677734375]
+    }
+}, {
+    "amount": "$24,324",
+    "type": 3,
+    "from": {
+        "name": "Reserve Bank of Zimbabwe",
+        "type": "bank",
+        "coord": [29.4873046875, -15.69677734375]
+    },
+    "to": {
+        "name": "HSBC Armenia",
+        "type": "bank",
+        "coord": [44.28925781250004, 40.040380859375006]
+    }
+}, {
+    "amount": "$24,324",
+    "type": 4,
+    "from": {
+        "name": "HSBC Armenia",
+        "type": "bank",
+        "coord": [44.28925781250004, 40.040380859375006]
+    },
+    "to": {
+        "name": "Mitsubishi",
+        "type": "man",
+        "coord": [10.128320312500023, 46.238232421875]
+    }
+}]
