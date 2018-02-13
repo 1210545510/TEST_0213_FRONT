@@ -1,0 +1,450 @@
+.alert_review_box {
+  .relation_box {
+    padding: 30px 30px 10px;
+    .el-pagination {
+      padding: 0 0 30px !important;
+    }
+    .com_title_box {
+      .lItem {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+      .icon {
+        margin-right: 5px;
+        color: #42c0f8;
+      }
+    }
+
+    .tab_list {
+      margin-bottom: 20px;
+    }
+
+    .detail_box {
+      font-size: 14px;
+      position: relative;
+      padding-bottom: 40px;
+      transition: all 3s;
+      .info {
+        float: left;
+        width: 160px;
+        margin-right: 40px;
+        .name {
+          color: #108EE9;
+        }
+        .el-progress {
+          margin-bottom: 20px;
+        }
+        .toView {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          color: #6AB9F2;
+          cursor: pointer;
+          text-decoration: underline;
+          .icon {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .list {
+        margin-left: 20px;
+        float: left;
+        width: 140px;
+        line-height: 18px;
+        &.list3 {
+          width: 250px;
+        }
+        &.list4 {
+          width: 180px;
+        }
+        .item {
+          margin-bottom: 20px;
+          color: #343434;
+          h4 {
+            font-size: 14px;
+            color: #108DE8;
+          }
+          > div {
+            word-wrap: break-word;
+            min-height: 18px;
+          }
+          .subItem {
+            line-height: 24px;
+            margin-bottom: 10px;
+            h5 {
+              font-size: 14px;
+              margin-bottom: 5px;
+            }
+            .onLine {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+            .icon {
+              background: #a6a6a6;
+              color: #ededed;
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .snapshopWrapTab_box {
+    >.el-tabs__header {
+      margin-bottom: 10px;
+    }
+    >.el-tabs__content {
+      background: #fff;
+      padding: 30px;
+      .el-tabs__header {
+        padding: 0 0 10px;
+    }
+      .tabShow {
+        padding:0 !important;
+      }
+    }
+    .customer_box {
+      padding: 20px 30px;
+      background: #F7F7F7;
+      dd {
+        float: left;
+        width: 30%;
+        margin-right: 3%;
+        padding: 5px 0;
+        .key {
+          color: #108EE9;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .snapshop_box {
+    font-size: 14px;
+    padding-top:30px;
+    margin-bottom: 30px;
+    .tabList {
+      .el-tabs__header { border: 0; margin-bottom: 0;}
+      .el-tabs__nav { border: 0}
+      .el-tabs__item {
+        background:#F9F9F9;
+        color:#585858;
+        border:1px solid #d9d9d9 !important;
+        padding:0 15px;
+        margin:0 10px 10px 0;
+        line-height: 30px;
+        height: 30px;
+        border-radius:5px;
+        &.is-active {
+          color: #6AB9F2;
+        }
+      }
+      .tabShow {
+        background: #fff;
+        padding: 30px;
+        .tabL,.tabR {
+          width: 640px;
+          .tit {
+            color: #108DE8;
+            font-size: 14px;
+            margin-bottom: 15px;
+            .rItem {
+              float: right;
+            }
+            .lItem {
+              float: left;
+            }
+          }
+          .show {
+            background: #F7F7F7;
+            padding: 30px;
+            min-height: 306px;
+            dd {
+              float: left;
+              width: 50%;
+              padding: 5px 0;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              .key,.val {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+              }
+              .key {
+                //float: left;
+                // width: 171px;
+                color: #108EE9;
+                padding-right: 5px;
+              }
+              .val {
+                // width: 110px;
+                //float: left;
+              }
+            }
+          }
+        }
+        .tabL {
+          float: left;
+        }
+        .tabR {
+          float: right;
+        }
+      }
+    }
+  }
+
+  .transactions_box {
+    padding: 30px;
+    background: #fff;
+    .el-table {
+      font-size: 12px;
+    }
+  }
+
+  .profile_wrap_box {
+    display: flex;
+    padding: 30px 0 60px;
+    .com_title_box {
+      .el-select {
+        width: 120px;
+      }
+    }
+    .item {
+      margin-bottom: 5px;
+      color: #343434;
+      float: left;
+      width: 48%;
+      margin-right: 2%;
+      h4 {
+        font-size: 14px;
+        color: #108DE8;
+        white-space: nowrap;
+      }
+      > div {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: 24px;
+      }
+    }
+    .detailBtn {
+      color:#6AB9F2;
+      font-size: 14px;
+      position: absolute;
+      bottom:-35px;
+      right: 2%;
+      text-align: right;
+      .link {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    .profile_subject_box, .ccount_profile_box, .transaction_profile_box {
+      float:left;
+      position: relative;
+    }
+    .profile_subject_box {
+      padding-right: 10px;
+      width: 434px;
+      //border-right: 1px solid #bbb;
+      .el-table {
+        min-height: 300px;
+        font-size: 12px;
+      }
+    }
+    .ccount_profile_box {
+      padding: 0 10px;
+      width: 250px;
+      //border-left: 1px solid #fff;
+      //border-right: 1px solid #bbb;
+      .el-table {
+        min-height: 300px;
+        font-size: 12px;
+      }
+    }
+    .transaction_profile_box {
+      padding-left: 10px;
+      width: 656px;
+      //border-left: 1px solid #fff;
+      .transaction_profile_show {
+        background: #fff;
+        height: 298px;
+        width: 100%;
+      }
+    }
+  }
+
+  .reviews_box {
+    padding:30px;
+    .com_title_box {
+      margin-bottom: 10px;
+      .review_steps_box {
+        width: 670px;
+        float: left;
+        margin-left: 150px;
+        .el-carousel {
+          padding-top: 30px;
+          .step_page {
+            width: 25%;
+            float: left;
+            text-align: center;
+            cursor: pointer;
+            .step_page_head {
+              margin-bottom: 10px;
+              position: relative;
+              height: 28px;
+              padding-top: 2px;
+              .icon {
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: 2px solid #fff;
+                background: #a8a8a8;
+                border-radius: 2px;
+                margin: 0 auto;
+                position: relative;
+                z-index: 2;
+              }
+              .line {
+                position: absolute;
+                background-color: #b4bccc;
+                height: 2px;
+                top: 13px;
+                left: 50%;
+                right: -50%;
+              }
+            }
+            .step_page_main {
+              margin: 0 25px;
+            }
+            .step_page_time {
+              color: #999;
+            }
+            &:last-child {
+              .step_page_head {
+                .line {
+                  display: none;
+                }
+              }
+            }
+            &.isFinish {
+              .step_page_head {
+                .icon {
+                  background: #53cf51;
+                }
+                .line {
+                  background: #53cf51;
+                }
+              }
+            }
+            &.isActive {
+              .step_page_head {
+                .icon {
+                  width: 24px;
+                  height:24px;
+                  box-shadow: 0 0 10px #aaa;
+                }
+              }
+            }
+            &.isRed {
+              .step_page_head {
+                .icon {
+                  background: red;
+                }
+              }
+            }
+            &.isYellow {
+              .step_page_head {
+                .icon {
+                  background: #ffcc01;
+                  border-color: #333;
+                  box-shadow: 0 0 0 3px #fff;
+                }
+              }
+            }
+            &.isWaiting {
+              cursor: not-allowed;
+            }
+          }
+
+          .el-carousel__indicators {
+            bottom: auto;
+            top:0;
+            .el-carousel__indicator {
+              padding: 5px;
+              .el-carousel__button {
+                width: 10px;
+                height:10px;
+                border-radius: 50%;
+                background: #101010;
+              }
+            }
+          }
+        }
+      }
+    }
+    .reviews_info_box {
+      .option {
+        font-size: 14px;
+        margin-bottom: 10px;
+        .item  {
+          &.lItem {
+            float: left;
+            margin-right:60px;
+          }
+          &.rItem {
+            float: right;
+            margin-left:60px;
+          }
+          .escalated {
+            color:#53cf51;
+          }
+          .isRed {
+            color: red;
+          }
+        }
+        .scoreDetail {
+          color: #51a0ec;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+      .show {
+        background: #fff;
+        border:1px solid #bbb;
+        padding: 20px 30px;
+        display: flex;
+        min-height: 200px;
+        .word {
+          float: left;
+          width: 880px;
+          line-height: 20px;
+          margin-right: 30px;
+          word-wrap: break-word;
+        }
+        .files {
+          float: right;
+          width: 300px;
+          border-left:1px solid #bbb;
+          padding-left: 40px;
+          line-height: 24px;
+          > p {
+            margin-bottom: 10px;
+            word-wrap: break-word;
+          }
+        }
+      }
+    }
+  }
+
+  .transactionMore_tab_layout,
+  .summaryDetail_tab_layout{
+    border: 0;
+    padding: 0 15px 15px;
+  }
+
+}
