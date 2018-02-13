@@ -1,0 +1,20 @@
+16:38:34.285 INFO - Selenium build info: version: '3.7.1', revision: '8a0099a'
+16:38:34.286 INFO - Launching a standalone Selenium Server
+2017-11-14 16:38:34.309:INFO::main: Logging initialized @365ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:38:34.368 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:38:34.415 INFO - Driver provider class org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities {browserName: internet explorer, ensureCleanSession: true, platform: WINDOWS, version: } does not match the current platform MAC
+16:38:34.415 INFO - Driver provider class org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities {browserName: MicrosoftEdge, platform: WINDOWS, version: } does not match the current platform MAC
+16:38:34.460 INFO - Using the passthrough mode handler
+2017-11-14 16:38:34.486:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+2017-11-14 16:38:34.509:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@3043fe0e{/,null,STARTING} has uncovered http methods for path: /
+2017-11-14 16:38:34.515:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@3043fe0e{/,null,AVAILABLE}
+2017-11-14 16:38:34.554:INFO:osjs.AbstractConnector:main: Started ServerConnector@4923ab24{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-11-14 16:38:34.554:INFO:osjs.Server:main: Started @610ms
+16:38:34.554 INFO - Selenium Server is up and running
+2017-11-14 16:38:34.763:INFO:osjshC.ROOT:qtp608188624-11: org.openqa.selenium.remote.server.WebDriverServlet-370736d9: Initialising WebDriverServlet
+16:38:34.811 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@6d04b440
+16:38:34.814 INFO - /session: Executing POST on /session (handler: BeginSession)
+16:38:34.867 INFO - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Test}
+16:38:34.869 INFO - Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Test} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
