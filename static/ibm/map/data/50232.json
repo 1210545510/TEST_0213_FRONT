@@ -1,0 +1,40 @@
+[{
+    "amount": "$472,101",
+    "type": 1,
+    "from": {
+        "name": "Baron Scott",
+        "type": "man",
+        "coord": [-3.199951171874943, 5.3544921875]
+    },
+    "to": {
+        "name": "Bank of Rwanda",
+        "type": "bank",
+        "coord": [30.656640625000023, -2.373828125]
+    }
+}, {
+    "amount": "$472,101",
+    "type": 3,
+    "from": {
+        "name": "Bank of Rwanda",
+        "type": "bank",
+        "coord": [30.656640625000023, -2.373828125]
+    },
+    "to": {
+        "name": "Banco de Mexico",
+        "type": "bank",
+        "coord": [-92.15854492187499, 14.963574218749997]
+    }
+}, {
+    "amount": "$472,101",
+    "type": 4,
+    "from": {
+        "name": "Banco de Mexico",
+        "type": "bank",
+        "coord": [-92.15854492187499, 14.963574218749997]
+    },
+    "to": {
+        "name": "DBS Bank Argentina Branch",
+        "type": "company",
+        "coord": [-37.63090820312496,-54.16748046875001]
+    }
+}]
