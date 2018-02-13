@@ -1,0 +1,400 @@
+{
+  "common": {
+    "roleUsers": "/role/users",
+    "surrogateUsers": "/surrogate/role/users",
+    "assignedList": "/get/actor/list",
+    "teamUsers": "/team/role/users",
+    "getFields": "/{dicId}/fields",
+    "saveFields": "/{dicId}/fields",
+    "getPermissions": "/{userId}/permissions",
+    "uploadUrl": "/upload/files"
+  },
+  "login": {
+    "signIn": "",
+    "signOut": ""
+  },
+  "alert": {
+    "dashboard": {
+      "getPending": "/getAlertPending",
+      "getInfo": "/getAlertInfo",
+      "analystItem": "/alert/teams",
+      "rolesItem": "/roles",
+      "monitoring": {
+        "total": "/getAlertTotal",
+        "avgScore": "/getAlertAvgScore",
+        "amountVolume": "/getAlertAmountVolume",
+        "totalByMonth": "/getAlertTotalByMonth",
+        "downTotalByMonth": "/downAlertInfoTotalByMonthExcel",
+        "rate": "/getRateAlert",
+        "downRate": "/getRateAlertExcel",
+        "escalated": "/getEscalatedAlert",
+        "downEscalated": "/getEscalatedAlertExcel",
+        "volumeByMonth": "/getAlertVolumeByMonth",
+        "downVolumeByMonth": "/getAlertVolumeByMonthExcel",
+        "amountByMonth": "/getAlertAmountByMonth",
+        "downAmountByMonth": "/getAlertAmountByMonthExcel",
+        "reversed": "/getReversedAlert",
+        "downReversed": "/getReversedAlertExcel",
+        "reviewTime": "/getAlertReviewTime",
+        "downReviewTime": "/getAlertReviewTimeExcel",
+        "reviewTimeQA": "/getAlertReviewTimeQA",
+        "downReviewTimeQA": "/getAlertReviewTimeQAExcel",
+        "review": "/getAlertReview",
+        "downReview": "/getAlertReviewExcel",
+        "timeTotal": "/getAlertReviewTimeTotal"
+      },
+      "monitoringChart": {
+        "reversedFoldLine": "/getReversedAlertFoldLine",
+        "averageFoldLine": "/getAverageAlertFoldLine",
+        "rateFoldLine": "/getRateFoldLine",
+        "escalatedFoldLine": "/getEscalatedAlertFoldLine",
+        "analystEscalationRateTeamFoldLine": "/getEscalationRateTeamFoldLine",
+        "analystReversedFoldLine": "/getReversedAlertFoldLine",
+        "analystWaivedRateTeamFoldLine": "/getWaivedRateTeamFoldLine",
+        "analystAverageFoldLine": "/getAverageFoldLine",
+        "qaReversedFoldLine": "/getReversedAlertFoldLine",
+        "qaAverageTeamFoldLine": "/getAverageTeamFoldLine"
+      }
+    },
+    "alertList": {
+      "getAlertList": "/alert/list",
+      "assignAlert": "/snaker/flow/assign",
+      "addAlert": "/alert/add",
+      "exportAlert": "/alert/excel",
+      "getFields": "/{dicId}/fields",
+      "saveFields": "/{dicId}/fields",
+      "merge": "/alert/merge"
+    },
+    "review": {
+      "search": "/alert/review/search",
+      "processing": {
+        "save": "/snaker/flow/approveSave/alert",
+        "getSaveInfo": "/snaker/flow/approval",
+        "submit": "/snaker/flow/approveAlert/",
+        "saveScore": "/snaker/flow/saveScore/alert",
+        "getScore": "/snaker/flow/score",
+        "editScore": "/snaker/flow/score/"
+      },
+      "snaker": {
+        "historyList": "/snaker/process/display"
+      },
+      "unbind": "/alert/review/unbind",
+      "reviewFist": "/alert/review/article1",
+      "relateList": "/alert/review/list",
+      "reviewInfo": {
+        "info": "/alert/review/info",
+        "allId": "/alert/review/acctid",
+        "summaryDetail": "/review/acct/snapshot/summary/list",
+        "custSummaryDetail": "/review/cust/snapshot/summary/list",
+        "monthBalance": "/review/acct/snapshot/balance/get"
+      },
+      "subjectDetail": {
+        "info": "/review/cust/detail/info",
+        "acount": "/review/cust/detail/accounts/list",
+        "CI": "/review/cust/detail/contact/list",
+        "CRI": "/review/cust/detail/risk/list"
+      },
+      "accDetail": {
+        "acctList": "/review/acct/detail/list",
+        "info": "/review/acct/detail/info",
+        "summary": "/review/acct/detail/summary/list"
+      },
+      "acctGet": "/review/acct/snapshot/get",
+      "acctDetailAccounts": "/review/acct/detail/info",
+      "custGet": "/review/cust/snapshot/get",
+      "acctInfo": "/review/acct/profile/list",
+      "transactions": "/alert/review/acct/transactions",
+      "custInfo": "/review/cust/profile/list",
+      "originalids": "/alert/review/originalids",
+      "processHistory": "/snaker/flow/history/list",
+      "processLog": "/snaker/flow/log/list",
+      "transactionDetail": {
+        "list": "/alert/transaction",
+        "history": "/transaction"
+      },
+      "RFI": {
+        "save": "/alert/review/rfi"
+      }
+    }
+  },
+  "case": {
+    "dashboard": {
+      "getPending": "/getCasePending",
+      "getInfo": "/getCaseInfo",
+      "monitoring": {
+        "total": "/getCaseTotal",
+        "avgScore": "/getCaseAvgScore",
+        "amountVolume": "/getCaseAmountVolume",
+        "totalByMonth": "/getCaseTotalByMonth",
+        "downTotalByMonth": "/downCaseInfoTotalByMonthExcel",
+        "rate": "/getRateCase",
+        "downRate": "/getRateCaseExcel",
+        "escalated": "/getEscalatedCase",
+        "downEscalated": "/getEscalatedCaseExcel",
+        "volumeByMonth": "/getCaseVolumeByMonth",
+        "downVolumeByMonth": "/getCaseVolumeByMonthExcel",
+        "amountByMonth": "/getCaseAmountByMonth",
+        "downAmountByMonth": "/getCaseAmountByMonthExcel",
+        "reversed": "/getReversedCase",
+        "downReversed": "/getReversedCaseExcel",
+        "reviewTime": "/getCaseReviewTime",
+        "downReviewTime": "/getCaseReviewTimeExcel",
+        "reviewTimeQA": "/getCaseReviewTimeQA",
+        "downReviewTimeQA": "/getCaseReviewTimeQAExcel",
+        "timeTotal": "/getCaseReviewTimeTotal"
+      },
+      "monitoringChart": {
+        "reversedFoldLine": "/getReversedCaseFoldLine",
+        "averageFoldLine": "/getAverageCaseFoldLine",
+        "rateFoldLine": "/getRateCaseFoldLine",
+        "escalatedFoldLine": "/getEscalatedCaseFoldLine",
+        "analystEscalationRateTeamFoldLine": "/getEscalationTeamFoldLine",
+        "analystReversedFoldLine": "/getReversedCaseFoldLine",
+        "analystWaivedRateTeamFoldLine": "/getWaivedTeamFoldLine",
+        "analystAverageFoldLine": "/getAverageScoreCaseFoldLine",
+        "qaReversedFoldLine": "/getReversedCaseFoldLine",
+        "qaAverageTeamFoldLine": "/getAverageCaseFoldLine"
+      }
+    },
+    "caseList": {
+      "getCaseList": "/case/list",
+      "assignCase": "/snaker/flow/assign",
+      "addCase": "/case/add",
+      "exportCase": "/case/excel",
+      "merge": "/case/merge"
+    },
+    "review": {
+      "processing": {
+        "save": "/snaker/flow/approveSave/sar",
+        "submit": "/snaker/flow/approveSar/",
+        "saveScore": "/snaker/flow/saveScore/sar"
+      },
+      "reviewFist": "/case/review/article1",
+      "unbind": "/case/review/unbind"
+    }
+  },
+  "dataCenter": {
+    "alertHistory": {
+      "queryList": "/alertInfoList",
+      "export": "/downAlertInfoExcel"
+    },
+    "caseHistory": {
+      "queryList": "/caseInfoList",
+      "export": "/downCaseInfoExcel"
+    },
+    "SARHistory": {
+      "queryList": "/caseInfoList",
+      "export": "/downSarInfoExcel"
+    },
+    "CTRHistory": {
+      "queryList": "/alertInfoList",
+      "export": "/downCTRInfoExcel"
+    },
+    "externalUserRequest": {
+      "queryList": "/extUserRequestList",
+      "export": "/downExtUserRequestExcel",
+      "import": "/importExtUserRequest"
+    },
+    "grandJurySubpoena": {
+      "queryList": "/grandJurySubpoenaList",
+      "export": "/downGrandJurySubpoenaExcel",
+      "import": "/importGrandJurySubpoena"
+    },
+    "dc314A": {
+      "queryList": "/data314AList",
+      "export": "/downData314AExcel",
+      "import": "/importData314A"
+    },
+    "customerProfile": {
+      "queryList": "/custList",
+      "export": "/downCustExcel"
+    },
+    "RFI": {
+      "queryList": "/custList",
+      "export": "/downCustExcel"
+    },
+    "CLIENTBANKList": {
+      "queryList": "/clientBankList",
+      "export": "/downClientBankExcel"
+    }
+  },
+  "report": {
+    "VA": {
+      "getTrend": "/getTrend",
+      "getYield": "/getYield",
+      "getTrendTotal": "/getTrendTotal",
+      "stage": "",
+      "getStatisCust": "/getStatisCust",
+      "getTrendTotalOfSar": "/getTrendTotalOfSar",
+      "getTotalNumberTrend": "/getTotalNumberTrend"
+    },
+    "DR": {
+      "queryAlertsGenerated": "/dataReport/queryAlertsGenerated",
+      "downAlertsGenerated": "/dataReport/queryAlertsGeneratedExcel",
+      "queryCaseCreated": "/dataReport/queryCaseCreated",
+      "downCaseCreated": "/dataReport/queryCaseCreatedExcel",
+      "querySarFiled": "/dataReport/querySarFiled",
+      "downSarFiled": "/dataReport/querySarFiledExcel",
+      "querySarYield": "/dataReport/querySarYield",
+      "downSarYield": "/dataReport/querySarYieldExcel",
+      "queryReferralsSar": "/dataReport/queryReferralsSar",
+      "downReferralsSar": "/dataReport/queryReferralsSarExcel",
+      "queryAnalystsSar": "/dataReport/queryAnalystsSar",
+      "downAnalystsSar": "/dataReport/queryAnalystsSarExcel",
+      "queryQaSar": "/dataReport/queryQaSar",
+      "downQaSar": "/dataReport/queryQaSarExcel",
+      "querySarFiledVersus": "/dataReport/querySarFiledVersus",
+      "downSarFiledVersus": "/dataReport/querySarFiledVersusExcel",
+      "queryCasesReasonable": "/dataReport/queryCasesReasonable",
+      "downCasesReasonable": "/dataReport/queryCasesReasonableExcel",
+      "queryWaivedByQa": "/dataReport/queryWaivedByQa",
+      "downWaivedByQa": "/dataReport/queryWaivedByQaExcel",
+      "queryEachTotalOfSar": "/dataReport/queryEachTotalOfSar",
+      "downEachTotalOfSar": "/dataReport/queryEachTotalOfSarExcel",
+      "queryStatisCust": "/dataReport/queryStatisCust",
+      "downStatisCust": "/dataReport/queryStatisCustExcel"
+    }
+  },
+  "configuration": {
+    "configurationCenter": {
+      "roleUsers1": "/{roleId}/users",
+      "roleUsers": "roles",
+      "getAssignRule": "/{roleId}/assignRule",
+      "getNoticeRule": "/query/noticeRule",
+      "saveNoticeRule": "/save/noticeRule"
+    },
+    "accountTypes": {
+      "queryList": "/accountTypesList",
+      "export": "/downAccountTypesExcel",
+      "import": "/importAccountTypes"
+    },
+    "activityMaps": {
+      "queryList": "/activityMapsList",
+      "export": "/downActivityMapsExcel",
+      "import": "/importActivityMaps"
+    },
+    "activityTypes": {
+      "queryList": "/activityTypesList",
+      "export": "/downActivityTypesExcel",
+      "import": "/importActivityTypes"
+    },
+    "countries": {
+      "queryList": "/countriesList",
+      "export": "/downCountriesExcel",
+      "import": "/importCountries"
+    },
+    "customerTypes": {
+      "queryList": "/customerTypesList",
+      "export": "/downCustomerTypesExcel",
+      "import": "/importCustomerTypes"
+    },
+    "exemptions": {
+      "queryList": "/exemptionsList",
+      "export": "/downExemptionsExcel",
+      "import": "/importExemptions"
+    },
+    "closeReason": {
+      "queryList": "/closeReasonList",
+      "export": "/downCloseReasonExcel",
+      "import": "/importCloseReason"
+    },
+    "formConfiguration": {
+      "queryList": "/formComfigurationList",
+      "export": "/downFormComfigurationExcel",
+      "import": "/importFormComfiguration"
+    },
+    "jobs": {
+      "queryList": "/jobsList",
+      "export": "/downJobsExcel",
+      "import": "/importJobs"
+    },
+    "logs": {
+      "queryList": "/logsList",
+      "export": "/downLogsExcel",
+      "import": "/importLogs"
+    },
+    "relationshipTypes": {
+      "queryList": "/relationshipTypesList",
+      "export": "/downRelationshipTypesExcel",
+      "import": "/importRelationshipTypes"
+    },
+    "userDefindRules": {
+      "queryList": "/userDefindRulesList",
+      "export": "/downUserDefindRulesExcel",
+      "import": "/importUserDefindRules"
+    },
+    "templateRules": {
+      "queryList": "/templateRulesList",
+      "export": "/downTemplateRulesExcel",
+      "import": "/importTemplateRules"
+    },
+    "systemParameters": {
+      "queryList": "/systemParametersList",
+      "export": "/downSystemParametersExcel",
+      "import": "/importSystemParameters"
+    },
+    "sequences": {
+      "queryList": "/sequencesList",
+      "export": "/downSequencesExcel",
+      "import": "/importSequences"
+    },
+    "dataDictionary": {
+      "getDictList": "/dicts",
+      "dictDetail": "/dict/",
+      "deleteDict": "/dict/",
+      "delDictFiled": "/dict/dicSub/{dicSid}",
+      "editDict": "/dict/",
+      "addDict": "/dict"
+    },
+    "comAuthorization": {
+      "authorizaList": "/snaker/surrogate/list",
+      "updateAuth": "/snaker/surrogate/update",
+      "authDetail": "/snaker/surrogate/edit/",
+      "getAllWorkflowName": "/snaker/surrogate/getAllProcessNames",
+      "deteleAuth": "/snaker/surrogate/delete{id}"
+    },
+    "workflowDef": {
+      "workflowList": "/snaker/process/list",
+      "designer": {
+        "info": "/snaker/process/designer"
+      }
+    },
+    "processInstance": {
+      "list": "/snaker/flow/order",
+      "detail": {
+        "display": "/snaker/process/display",
+        "json": "/snaker/process/json"
+      }
+    },
+    "statusCon": {
+      "configList": "/configuration/list",
+      "configSave": "/{didSid}/configuration"
+    }
+  },
+  "sarReport": {
+    "home": {
+      "save": "/sarReport/add",
+      "query": "/sarReport/query"
+    },
+    "step1": {
+      "save": "/filing/add",
+      "query": "/filing/query"
+    },
+    "step2": {
+      "save": "/financial/add",
+      "query": "/financial/query"
+    },
+    "step3": {
+      "save": "/subject/add",
+      "query": "/subject/query"
+    },
+    "step4": {
+      "save": "/suspicious/add",
+      "query": "/suspicious/query"
+    },
+    "step5": {
+      "save": "/narrative/add",
+      "query": "/narrative/query"
+    }
+  }
+}
