@@ -1,0 +1,29 @@
+.report_visualAnalysis_box {
+  background: #fff;
+  padding: 30px;
+  .chart_box {
+    margin-bottom: 60px;
+    .com_title_box {
+      .com_tit_txt {
+        width: 620px;
+        height: 32px;
+        line-height: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-right: 0;
+      }
+      .com_customSwitch_box {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    .chartShow {
+      padding-right: 30px;
+      height: 455px;
+      background: url("/static/img/report/chartLine.png") repeat-y right 0 !important;
+    }
+  }
+
+}
