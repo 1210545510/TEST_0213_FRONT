@@ -1,0 +1,40 @@
+.com_createAlert_box {
+  // 创建alert弹框
+  .dialog_CreateAlert_content{
+    .dl_form_item{
+      padding: 12px 0;
+      .dl_form_item_fLeft{
+        width: 48%;
+        .dl_form_name{
+          min-width: auto;
+          width: 29%;
+        }
+
+        .el-input, .el-select{
+          min-width: auto;
+          width: 66%;
+        }
+        .el-select{
+            .el-input{
+              width: 100%;
+            }
+        }
+      }
+      .dl_form_emptyitem{
+        width: 4%;
+      }
+    }
+    .alertReason_item{
+      .dl_form_name{
+        min-width: 14%!important;
+      }
+      .el-textarea{
+        width: 83%;
+      }
+    }
+    .upload_demo{
+      display: inline-block;
+      width: 60%;
+    }
+  }
+}

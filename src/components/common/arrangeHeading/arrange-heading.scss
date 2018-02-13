@@ -1,0 +1,70 @@
+.com_arrangeHeading_box {
+  // 改变表头弹框
+  // 重设表头弹框
+  .dialog_RerangeHeading_content{
+    width: 87%;
+    min-height: 100px;
+    max-height: 330px;
+    overflow-y: scroll;
+    border: 1px solid #d9d9d9;
+    padding: 10px 0;
+    margin: 0 25px;
+
+    .el-checkbox{
+      padding: 0 25px;
+      display: block;
+      margin-left: 0!important;
+      line-height: 40px;
+      height: 40px;
+
+      .el-checkbox__label{
+        font-size: 15px;
+        padding-left: 20px;
+      }
+    }
+    .active{
+      background: #d6f0ff;
+    }
+  }
+  // 移动的箭头
+  .RerangeHeading_move_box {
+    position: absolute;
+    top: 30px;
+    right: 32px;
+
+    .move_button{
+      height: 24px;
+      width: 24px;
+      display: block;
+      margin-bottom: 10px;
+      border: 1px solid #d9d9d9;
+      border-radius: 3px;
+      cursor: pointer;
+      text-align: center;
+      i {
+        display: inline-block;
+        border: 7px solid transparent;
+      }
+      .move_down_icon{
+        margin-top: 7px;
+        border-top: 11px solid #e6e6e6;
+      }
+      .move_up_icon{
+        margin-bottom: 7px;
+        border-bottom: 11px solid #e6e6e6;
+      }
+    }
+    .active{
+      border-color: #d6f0ff;
+      .move_down_icon{
+        border-top: 11px solid #108ee9;
+      }
+      .move_up_icon{
+        border-bottom: 11px solid #108ee9;
+      }
+    }
+  }
+  .el-dialog__body{
+    position: relative;
+  }
+}
